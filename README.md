@@ -1,5 +1,8 @@
 # usbEjector
-Eject the usb storage when the usb device plugin your PC!
+
+Anti-Hacking! Prevent someone from stealing your data via usb drive!
+
+Automatically eject the usb storage when the usb device plugin your PC!
 
 This is a python programming that can protect your PC! It won't allow any USB storage to plugin into your PC.
 
