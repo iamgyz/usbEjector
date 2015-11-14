@@ -10,14 +10,14 @@ When there is a usb storage plugin, it would immediately safely remove the drive
 
 ## Environment  
 Because we've used PowerShell for ejection, so
-Win7 or later version is required!
-
+Win7 or later version is required!  
 For example, if we want to remove the usb storage drive on F:\
 ```ps
 $driveEject = New-Object -comObject Shell.Application
 $driveEject.Namespace(17).ParseName("F:").InvokeVerb("Eject")
 ```
 
+Also, python3 is required too! 
 ## Usage
 `python3 usb_eject.py`  
 
